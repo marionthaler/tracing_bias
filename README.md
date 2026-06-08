@@ -41,25 +41,13 @@ across multiple prompting strategies and decoding configurations.
 ├── data/
 │   ├── occupations/
 │   ├── gender_terms/
-│   └── statistics/
+│   └── additional_data/
 ├── prompts/
-│   ├── neutral/
-│   ├── positive/
-│   └── negative/
+│   ├── OLMo_base/
+│   └── OLMo_instruction_tuned/
 ├── retrieval/
-│   ├── dolma_queries/
-│   └── cooccurrence_analysis/
 ├── generation/
-│   ├── olmo_base/
-│   ├── olmo_sft/
-│   └── olmo_instruct/
-├── evaluation/
-│   ├── sta/
-│   ├── amplification/
-│   └── correlation/
-├── figures/
-├── notebooks/
-└── scripts/
+└── figures/
 ```
 
 ## Methodology
@@ -99,40 +87,6 @@ Measures whether model outputs amplify or reduce gender imbalances present in pr
 
 Measures the relationship between gender distributions in the training data and generated outputs.
 
-## Installation
-
-```bash
-git clone https://github.com/marionthaler/tracing_bias.git
-cd tracing_bias
-
-python -m venv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-## Running the Experiments
-
-### Analyze Dolma Co-occurrences
-
-```bash
-python scripts/analyze_dolma.py
-```
-
-### Generate Model Outputs
-
-```bash
-python scripts/generate.py \
-    --model olmo-7b \
-    --prompt_type neutral \
-    --decoding baseline
-```
-
-### Compute Bias Metrics
-
-```bash
-python scripts/evaluate.py
-```
 
 ## Reproducing Results
 
@@ -140,11 +94,9 @@ The experiments in the paper use:
 
 * 220 occupations
 * Gender-identifying token lexicons
-* Multiple prompt templates
+* Prompt templates
 * Four decoding strategies
 * OLMo 7B, OLMo 7B SFT, and OLMo 7B Instruct
-
-Detailed configurations can be found in the `configs/` directory.
 
 ## Citation
 
