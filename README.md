@@ -149,11 +149,18 @@ Detailed configurations can be found in the `configs/` directory.
 ## Citation
 
 ```bibtex
-@inproceedings{thaler2026tracingbias,
-  title={How Far Can Bias Go? Tracing Bias from Pre-Training Data to Alignment},
-  author={Thaler, Marion and Köksal, Abdullatif and Leidinger, Alina and Korhonen, Anna and Schütze, Hinrich},
-  booktitle={Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC-COLING 2026)},
-  year={2026}
+@inproceedings{thaler-etal-2026-how,
+  title = {How Far Can Bias Go? Tracing Bias from Pre-Training Data to Alignment},
+  author = {Thaler, Marion and Köksal, Abdullatif and Leidinger, Alina and Korhonen, Anna Anna and Schütze, Hinrich},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {3975--3995},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/4zeoky6waeng},
+  abstract = {As LLMs are increasingly integrated into user-facing applications, addressing biases that perpetuate societal inequalities is crucial. While much work has gone into measuring and mitigating biases, fewer studies have investigated their origins. Therefore, this study examines the propagation of representational gender-occupation bias from pre-training data to LLM generations. Using zero-shot prompting and token co-occurrence analyses, we explore how biases in the pre-training data influence model generations. Our findings reveal that representational biases present in the pre-training data are amplified in the model generations, regardless of hyperparameters and prompting type. By comparing gender representation in the pre-training data with real-world distributions, our research highlights discrepancies between the data and the model, underscoring the importance of further work in mitigating bias at the data level.}
 }
 ```
 
