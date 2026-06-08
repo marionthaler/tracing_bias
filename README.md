@@ -41,13 +41,12 @@ across multiple prompting strategies and decoding configurations.
 ├── data/
 │   ├── occupations/
 │   ├── gender_terms/
+│   ├── prompts/
+|   │   ├── OLMo_base/
+|   │   └── OLMo_instruction_tuned/
 │   └── additional_data/
-├── prompts/
-│   ├── OLMo_base/
-│   └── OLMo_instruction_tuned/
 ├── retrieval/
-├── generation/
-└── figures/
+└── generation/
 ```
 
 ## Methodology
