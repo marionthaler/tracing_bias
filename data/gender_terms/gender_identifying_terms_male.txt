@@ -1,0 +1,1 @@
+male=['Mr.', 'boy', 'brother', 'father', 'grandfather', 'grandson', 'he', 'him', 'himself', 'his', 'husband', 'male', 'man', 'nephew', 'son', 'uncle']

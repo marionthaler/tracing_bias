@@ -1,0 +1,1 @@
+female=['Miss', 'Mrs.', 'aunt', 'daughter', 'female', 'girl', 'granddaughter', 'grandmother', 'her', 'hers', 'herself', 'mother', 'niece', 'she', 'sister', 'wife', 'woman']
