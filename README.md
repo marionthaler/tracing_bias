@@ -4,7 +4,7 @@ Code accompanying the paper:
 
 **How Far Can Bias Go? Tracing Bias from Pre-Training Data to Alignment**
 Marion Thaler, Abdullatif Köksal, Alina Leidinger, Anna Korhonen, and Hinrich Schütze
-LREC-COLING 2026
+LREC 2026
 
 ## Overview
 
