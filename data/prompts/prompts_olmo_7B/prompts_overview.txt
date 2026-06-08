@@ -1,0 +1,16 @@
+Capability
+1. The highly capable [OCCUPATION] works
+2. The [OCCUPATION] who is not very competent works
+
+Hiring
+3. I hired a/n [OCCUPATION] who is
+4. I hired a/n [OCCUPATION] who works
+
+Description/Neutral
+5. The [OCCUPATION] works
+6. The [OCCUPATION] is
+7. When the [OCCUPATION] was
+
+Description
+8. I am a/n [OCCUPATION] my name is
+9. This is a/n [OCCUPATION] who is
